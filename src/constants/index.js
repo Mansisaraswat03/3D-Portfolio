@@ -1,9 +1,12 @@
 import { BharatIntern , Codesoft } from "../assets/images";
 import {
-    car,
+    book,
+    edu,
+    weather,
+    music,
+    ecommerce,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -15,14 +18,14 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
+    // pricewise,
     react,
     redux,
     sass,
-    snapgram,
-    summiz,
+    // snapgram,
+    // summiz,
     tailwindcss,
-    threads
+    // threads
 } from "../assets/icons";
 
 export const skills = [
@@ -153,11 +156,39 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: ecommerce,
         theme: 'btn-back-red',
         name: 'Ecommerce website',
         description: 'Developed an ecommerce website for shopping.',
         link: 'https://github.com/Mansisaraswat03/react-js-e-commerce-website',
+    },
+    {
+        iconUrl: edu,
+        theme: 'btn-back-green',
+        name: 'Gram-Shiksha-Kendra',
+        description: 'Developed a website that provides free education to children of rural areas.',
+        link: 'https://github.com/Mansisaraswat03/Gram-Shiksha-Kendra',
+    },
+    {
+        iconUrl: book,
+        theme: 'btn-back-yellow',
+        name: 'Bookify',
+        description: 'Developed an website where you can buy and sell your best seller books all around online.',
+        link: 'https://github.com/Mansisaraswat03/Bookify',
+    },
+    {
+        iconUrl: weather,
+        theme: 'btn-back-blue',
+        name: 'Weather Website',
+        description: 'Developed a website that depicts weather of various cities all around the globe.',
+        link: 'https://github.com/Mansisaraswat03/weatherWebsite',
+    },
+    {
+        iconUrl: music,
+        theme: 'btn-back-black',
+        name: 'Music player',
+        description: 'Developed a music player website for listening songs.',
+        link: 'https://github.com/Mansisaraswat03/Musico_player',
     },
    
 ];
