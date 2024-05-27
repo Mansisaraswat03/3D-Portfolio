@@ -16,11 +16,6 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-// import car from './car.svg'
-// import estate from './estate.svg'
-// import pricewise from './pricewise.svg'
-// import snapgram from './snapgram.svg'
-// import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
@@ -31,7 +26,9 @@ import edu from "./edu.svg";
 import ecommerce from "./ecommerce.svg";
 import music from "./music-player.svg";
 import weather from "./weather.svg";
-
+import prisma from "./prisma.svg";
+import shadcn from "./shadcn.svg";
+import blog from "./blog.svg";
 
 export {
     css,
@@ -52,11 +49,6 @@ export {
     typescript,
     linkedin,
     twitter,
-    // car,
-    // estate,
-    // pricewise,
-    // snapgram,
-    // summiz,
     threads,
     arrow,
     contact,
@@ -66,5 +58,8 @@ export {
     edu,
     weather,
     music,
-    ecommerce
+    ecommerce,
+    prisma,
+    shadcn,
+    blog
 }
